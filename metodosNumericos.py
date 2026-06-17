@@ -1,7 +1,7 @@
 import math
 import numpy as np
 import matplotlib
-matplotlib.use('QtAgg') # Esto le dice que use Qt (detectará Qt6 automáticamente) - KDE Plasma
+matplotlib.use('GTK4Agg')
 import matplotlib.pyplot as plt
 from scipy.interpolate import CubicSpline
 
